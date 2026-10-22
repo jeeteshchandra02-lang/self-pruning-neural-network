@@ -1,0 +1,4 @@
+# Python >=3.10. sklearn is used only to LOAD the standard digits dataset.
+numpy>=1.24,<3
+scikit-learn>=1.3,<2
+matplotlib>=3.7,<4

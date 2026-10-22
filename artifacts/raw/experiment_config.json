@@ -1,0 +1,37 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "sparsities": [
+    0.0,
+    0.5,
+    0.75,
+    0.9,
+    0.95
+  ],
+  "criteria": [
+    "taylor",
+    "magnitude"
+  ],
+  "epochs": 32,
+  "batch_size": 64,
+  "lr": 0.003,
+  "split_seed": 2026,
+  "benchmark_repeats": 16,
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "sklearn_loader_version": "1.8.0",
+    "blas_note": "Runtime and BLAS thread settings affect measured latency."
+  },
+  "mac_definition": "One weight multiply-accumulate per surviving connection per example.",
+  "flop_definition": "Approx. 2 FLOPs per weight MAC; excludes bias and activation ops.",
+  "min_incoming": 1,
+  "min_outgoing": 1,
+  "regrow_swaps": 0
+}

@@ -1,0 +1,2 @@
+Across 5 paired seeds [0, 1, 2, 3, 4], with a nominal 90% target (achieved 90.002%), Taylor pruning achieved 96.20 ± 0.41 percentage points test accuracy (mean ± seed SD) versus 95.99 ± 0.69 for magnitude; paired mean difference Taylor minus magnitude was +0.22 percentage points (paired SD 1.03).
+The sparse inference path visits 1123 active weight MACs per example, versus 11232 for the dense path. These weight MAC counts do not include biases or activations, and do not establish a latency speedup. See benchmark results for measured wall-clock times.

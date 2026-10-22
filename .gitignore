@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+*.log
+artifacts/tmp/
+
+# Full resumable training checkpoints are local artifacts; generate with train.checkpoint
+artifacts/training_state.npz
